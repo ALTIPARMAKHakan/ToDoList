@@ -15,10 +15,7 @@ import db from "./firebase";
 export default function App() {
   const [tasks, setTasks] = useState([]);
 
-  const tarih = new Date();
-  let date = tarih.toDateString();
-  // burada date normalde obje, fakat bu oluşturduğumuz diziyle uyumsuzluğa neden oluyor bu nedenle objeyi tostring metodu ie diziye entegre etmemizi sağlıyoruz.
-
+ 
   const createTask = async (title, taskDesc, date) => {
     let id = Math.floor(Math.random() * 999999999);
 
