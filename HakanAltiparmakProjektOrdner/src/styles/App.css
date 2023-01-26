@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ikonListe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.appButton {
+  width: 25%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid blue;
+}
+/* .img {
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+} */
+.resimAnaSablon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+
+  width: 100%;
+  /* masonry-auto-flow: pack; */
+}
+.resimListe {
+  margin: 30px;
+  column-count: 4;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
+  /* columns: 4 150px;
+  column-gap: 10px; */
+}
+.tekResimAciklama {
+  font-size: 10px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 95%;
+}
+.tekResim {
+  border: 1px solid rgb(0, 0, 94);
+  border-radius: 3px;
+  width: 100%;
+}

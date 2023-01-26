@@ -1,0 +1,102 @@
+.GorevOlusturma {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 200px;
+
+  /* flex direction column olduğu için align-items center yazdık, 
+  eğer flex direction row olsaydı justify-content center diyecektik */
+}
+
+.GorevOlusturmaBasliklar {
+  margin: 5px 0px;
+}
+.GorevOlusturmaVeriGiris {
+  border-radius: 5px;
+  max-width: 90%;
+  min-width: 90%;
+}
+.GorevOlusturmaEklemeButonu {
+  background-color: green;
+  color: beige;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  margin: 3px 30px;
+  padding: 5px;
+  width: auto;
+  transition: 1s;
+  border: 1px solid black;
+}
+.GorevOlusturmaEklemeButonu:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid greenyellow;
+}
+.GorevOlusturmaEklemeButonu-Guncelleme {
+  background-color: yellow;
+  color: black;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  margin: 3px 30px;
+  padding: 5px;
+  width: 145px;
+}
+.GorevGuncellemeVeriGiris {
+  border-radius: 5px;
+  max-width: 90%;
+  min-width: 90%;
+}
+.GorevListeleme {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.GoreviEkranaBasma {
+  width: 200px;
+  padding: 20px;
+  background-color: rgba(230, 247, 240, 0.5);
+  border: 1px crimson solid;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.GoreviEkranaBasmaBasliklari {
+  margin-bottom: 2px;
+}
+p {
+  word-break: break-all;
+}
+.silmeButonu {
+  padding: 5px;
+  font-size: 15px;
+  width: auto;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 3px;
+  transition: 1s;
+}
+.silmeButonu:hover {
+  background-color: orangered;
+}
+.guncellemeButonu {
+  padding: 5px;
+  font-size: 15px;
+  width: auto;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  transition: 1s;
+}
+.guncellemeButonu:hover {
+  background-color: turquoise;
+}
